@@ -1,0 +1,96 @@
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  font-size: 4rem;
+  color: lightgray;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.checkbox-container {
+  padding: 5% 25%;
+}
+
+.checkbox{
+  border-radius: 0.6rem;
+  color: white;
+  font-size: larger;
+  padding: 0.8rem;
+  margin: 0.9rem 0;
+  display: flex;
+  align-items: center;
+}
+.checkbox input{
+  height: 100%;
+  transform: scale(1.6);
+}
+.checkbox label {
+  line-height: 1.3;
+  padding: 0 0.8rem;
+  width: 100%;
+}
+
+.cross {
+  font-size: large;
+  height: fit-content;
+  background-color: transparent;
+  color: rgb(215, 213, 213);
+  border: 0;
+  border-radius: 50%;
+  padding: 0.08rem 0.35rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-btn {
+  border-radius: 0.8rem;
+  color: white;
+  font-size: x-large;
+  padding: 0.8rem 0.8rem;
+  background-color: #0d295f;
+
+  position: fixed;
+  bottom: 3rem;
+  right: 4.5rem;
+  cursor: pointer;
+  border: 3px solid gray;
+}
+
+.new-todo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.3; 
+  font-size: large;
+  color: white;
+  border-width: 0 0 0.5px 0 ;
+  padding: 0.2rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+.cancel-btn {
+  font-size: medium;
+  background-color: transparent;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+.add-add-btn {
+  font-size: medium;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) {
+  .checkbox-container {
+    padding: 5% 15%;
+  }
+}
